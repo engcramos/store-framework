@@ -52,10 +52,8 @@
             ],
             "props":{
                 "tabId":"majorAppliances"
-            },
-            "blocks": [
-               "iframe"
-            ]
+            }
+            
         },
 
         "tab-content.item#home2":{
@@ -63,8 +61,11 @@
                 "rich-text#home2"
             ],
             "props":{
-                "tabId":"electronics"
-            }
+                "tabId":"instagram"
+            },
+            "blocks": [
+              "iframe"
+           ]
         },
         
 
