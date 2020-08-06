@@ -41,7 +41,11 @@
     "props": {
       "preventVerticalStretch": true,
       "verticalAlign": "middle"
-    }
+    },
+    "shipping-simulator": {
+      "props": {
+        "skuID": "342"
+      }}
     
   },
 
