@@ -16,21 +16,21 @@
   },
 
   "flex-layout.col#left": {
-    "preventVerticalStretch": true,
-    "verticalAlign": "middle",
     "children": [
       "product-images"
     ]
   },
 
   "flex-layout.col#right": {
-    "preventVerticalStretch": true,
-    "verticalAlign": "middle",
-    "children": [
+        "children": [
       "product-name",
       "product-price",
       "buy-button"
-    ]
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
+    }
     
   },
 
