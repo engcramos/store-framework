@@ -20,7 +20,7 @@
         ]
       },
 
-      "tab-list.item#1": {
+      "tab-list.item#home1": {
         "props": {
           "tabId": "majorAppliances",
           "label": "Major Appliances",
@@ -55,12 +55,12 @@
         
 
 
-      "tab-list.item#2": {
+    "tab-list.item#home2": {
         "props": {
           "tabId": "electronics",
           "label": "Electronics"
         }
-      },
+    },
 
      "flex-layout.row#about-us": {
         "children": [
