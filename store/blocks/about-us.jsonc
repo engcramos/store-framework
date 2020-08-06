@@ -3,7 +3,6 @@
         "blocks": [
             "flex-layout.row#about-us",
             "tab-layout#home"
-            
         ]
      },
 
@@ -66,10 +65,7 @@
 
 
     "tab-list.item#home2": {
-      "blocks": [
-         "iframe"
-      ],
-        "props": {
+      "props": {
           "tabId": "instagram",
           "label": "Instagram"
         }
@@ -121,7 +117,11 @@
           
           "textPosition": "CENTER",
           "font": "t-heading-3"
-        }
+        },
+        "blocks": [
+          "iframe"
+        ]
+
       }
 
    }
