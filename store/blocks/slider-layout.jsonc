@@ -5,8 +5,8 @@
       "autoplay": {
         "timeout": 7000,
         "stopOnHover": true
-      },
-      "slideTransition":{ speed: 400, delay: 0, timing: '' }
+      }
+      
     }
   },
 
@@ -50,7 +50,7 @@
       "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
       "maxHeight": 24
     }
-  },
+  }
 
 }
 
