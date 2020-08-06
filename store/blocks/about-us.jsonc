@@ -2,8 +2,8 @@
     "store.custom#about-us": {
         "blocks": [
             "flex-layout.row#about-us",
-            "tab-layout#home",
-            "iframe"
+            "tab-layout#home"
+            
         ]
      },
 
@@ -66,6 +66,9 @@
 
 
     "tab-list.item#home2": {
+      "blocks": [
+         "iframe"
+      ],
         "props": {
           "tabId": "instagram",
           "label": "Instagram"
