@@ -1,5 +1,5 @@
 {
-  "store.product": {
+  "store.home": {
     "children": [
       "breadcrumb",
       "flex-layout.row#main"
