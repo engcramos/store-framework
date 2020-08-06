@@ -29,8 +29,7 @@
       "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
-      "buy-button",
-      "shipping-simulator"
+      "buy-button"
     ],
     "props": {
       "preventVerticalStretch": true,
