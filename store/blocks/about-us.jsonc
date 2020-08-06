@@ -2,18 +2,11 @@
     "store.custom#about-us": {
         "blocks": [
             "flex-layout.row#about-us",
-            "tab-layout#home",
-            "iframe"
+            "tab-layout#home"
         ]
      },
 
-     "iframe": {
-      "props": {
-        "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
-        "width": 800,
-        "height": 1000
-        }
-      },
+    
 
      "tab-layout#home": {
         "children": [
@@ -62,16 +55,6 @@
             ],
             "props":{
                 "tabId":"instagram"
-            },
-            "blocks": [
-              "iframe"
-           ],
-           "iframe": {
-            "props": {
-              "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
-              "width": 800,
-              "height": 1000
-              }
             }
         },
         
@@ -81,17 +64,8 @@
       "props": {
           "tabId": "instagram",
           "label": "Instagram"
-        },
-        "blocks": [
-          "iframe"
-       ],
-       "iframe": {
-        "props": {
-          "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
-          "width": 800,
-          "height": 1000
-          }
         }
+
     },
 
      "flex-layout.row#about-us": {
@@ -139,10 +113,8 @@
         "props": {
           "textPosition": "CENTER",
           "font": "t-heading-3"
-          },
-        "blocks": [
-          "iframe"
-        ]
+          }
+       
 
       }
 
