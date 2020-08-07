@@ -14,24 +14,21 @@
   "tab-layout#home": {
     "children": [
       "tab-list#home",
-      "tab-content#home",
-      "iframe"
+      "tab-content#home"
     ]
   },
 
   "tab-list#home": {
     "children": [
       "tab-list.item#home1",
-      "tab-list.item#home2",
-      "iframe"
+      "tab-list.item#home2"
     ]
   },
 
   "tab-content#home" : {
     "children": [
       "tab-content.item#home1",
-      "tab-content.item#home2",
-      "iframe"
+      "tab-content.item#home2"
     ]
   },
 
@@ -65,6 +62,7 @@
     "children":[
       "rich-text#home2",
       "iframe"
+     
   ],
    "props":{
     "tabId":"Instagram"
@@ -74,16 +72,14 @@
   "flex-layout.row#about-us": {
     "children": [
       "image#about-us",
-      "flex-layout.col#text-about-us",
-      "iframe"
+      "flex-layout.col#text-about-us"
     ]
   },
 
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#about-title",
-      "rich-text#about-content",
-      "iframe"
+      "rich-text#about-content"
     ],
     "props": {
       "preventVerticalStretch": true
