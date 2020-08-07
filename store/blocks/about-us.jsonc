@@ -14,31 +14,25 @@
   "tab-layout#home": {
     "children": [
       "tab-list#home",
-      "tab-content#home"
-    ],
-    "blocks": [
+      "tab-content#home",
       "iframe"
-        ]
+    ]
   },
 
   "tab-list#home": {
     "children": [
       "tab-list.item#home1",
-      "tab-list.item#home2"
-    ],
-    "blocks": [
+      "tab-list.item#home2",
       "iframe"
-        ]
+    ]
   },
 
   "tab-content#home" : {
     "children": [
       "tab-content.item#home1",
-      "tab-content.item#home2"
-    ],
-    "blocks": [
+      "tab-content.item#home2",
       "iframe"
-        ]
+    ]
   },
 
   "tab-list.item#home1": {
@@ -46,40 +40,29 @@
       "tabId": "sobre",
       "label": "Sobre",
       "defaultActiveTab": true
-    },
-    "blocks": [
-      "iframe"
-        ]
+    }
   },
 
   "tab-list.item#home2": {
     "props": {
       "tabId": "instagram",
       "label": "Instagram"
-    },
-    "blocks": [
-      "iframe"
-        ]
+    }
   },
 
 
   "tab-content.item#home1":{
     "children":[
-      "rich-text#home1"
+      "rich-text#home1",
+      "iframe"
       ],
     "props":{
       "tabId":"majorAppliances"
-    },
-    "blocks": [
-      "iframe"
-        ]
+    }
   },
 
   "tab-content.item#home2":{
-    "blocks": [
-      "iframe"
-    ],
-    "props":{
+   "props":{
     "tabId":"Instagram"
     }
   },
@@ -87,24 +70,21 @@
   "flex-layout.row#about-us": {
     "children": [
       "image#about-us",
-      "flex-layout.col#text-about-us"
-    ],
-    "blocks": [
+      "flex-layout.col#text-about-us",
       "iframe"
-        ]
+    ]
   },
 
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#about-title",
-      "rich-text#about-content"
+      "rich-text#about-content",
+      "iframe"
     ],
     "props": {
       "preventVerticalStretch": true
-    },
-    "blocks": [
-      "iframe"
-        ]
+    }
+
   },
 
   "rich-text#about-title": {
