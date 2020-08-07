@@ -11,7 +11,7 @@
         }
       },
     
-      "vtex.menu@2.x:menu#major-appliances":{
+      "vtex.menu@2.x:submenu#major-appliances":{
         "children":[
           "vtex.menu@2.x:submenu#major"
         ]
